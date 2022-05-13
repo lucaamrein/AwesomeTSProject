@@ -24,7 +24,6 @@ workflows:
     scripts:
       - name: Install npm dependencies
         script: |
-          npm whoami
           npm install
       - name: Set Android SDK location
         script: |
@@ -94,7 +93,6 @@ workflows:
     scripts:
       - name: Install npm dependencies
         script: |
-          npm whoami
           npm install
       - name: Install CocoaPods dependencies
         script: |
