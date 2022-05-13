@@ -5,7 +5,6 @@ workflows:
   react-native-android:
     name: React Native Android
     max_build_duration: 120
-    working_directory: TipMobileApp
     instance_type: mac_mini
     environment:
       groups:
@@ -71,7 +70,6 @@ workflows:
   react-native-ios:
     name: React Native iOS
     max_build_duration: 120
-    working_directory: TipMobileApp
     instance_type: mac_mini
     environment:
       groups:
